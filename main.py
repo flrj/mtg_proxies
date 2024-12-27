@@ -1,5 +1,6 @@
 import argparse
 import requests
+import os
 from df_cards import create_df_proxy
 
 def main(args):
@@ -22,13 +23,21 @@ def main(args):
     response = requests.get(scryfall_url)
     card_json = response.json()
 
+    filename = "".join(card_json["name"].title().split()).replace("//", "_").replace(",", "").replace("'", "")
+    print(f"filename: {filename}")
+
+    # double faced card to .tex format
     if "card_faces" in card_json:
         print("double face card detected")
         proxy_text = create_df_proxy(card_json)
     else:
         print("not yet possible")
 
-    print(proxy_text)
+    # write to .tex file
+    with open("tex_files/" + filename + ".tex", "w") as tex_file:
+        tex_file.write(proxy_text)
+
+    os.system(f"pdflatex -output-directory=pdf_files tex_files/{filename}.tex")
 
 if __name__ == "__main__":
     # Create the parser
