@@ -7,7 +7,7 @@ For now it only works for double faced cards.
 
 ## ToDo
 
-- warn if output exedes 1 page or automatically scale (e.g. Kytheon Hero of akros // Gideon Battle-Forged set: ORI nr: 23)
+- warn if output exedes 1 page or automatically scale (e.g. Kytheon Hero of Akros // Gideon Battle-Forged set: ORI nr: 23)
 
 ## Wishlist
 
