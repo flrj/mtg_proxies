@@ -17,7 +17,7 @@ Then you can call the script with
 
 ## Wishlist
 
-- Also work for single faced card to create a proxy with the up to date oracle text.
+- Also work for single faced card to create a proxy with the up to date oracle text. (Useful for older cards)
 - Specify multiple cards, create multiple minipages on an A4 sheet for easier printing.
 
 ## Source for the Mana Symbols
