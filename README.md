@@ -2,13 +2,11 @@
 
 This is a tool to create proxies for Magic the Gathering.
 For now it only works for double faced cards.
-
-<img src=Example/front_card.jpg width=200>
-<img src=Example/back_card.jpg width=200>
-
-transformed to 
-
-<img src=Example/pdf_card.svg width=200>
+<p float="left">
+  <img src=Example/front_card.jpg width=200>
+  <img src=Example/back_card.jpg width=200>
+  <img src=Example/pdf_card.svg width=200>
+</p>
 
 ## ToDo
 
