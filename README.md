@@ -5,6 +5,12 @@ For now it only works for double faced cards.
 
 ![example](Example/example.png)
 
+## Usage
+
+You need to know the Set name and collector number of the card you want to create a proxy for.
+Then you can call the script with 
+> python3 main.py --set <setname> --nr <number>
+
 ## ToDo
 
 - warn if output exedes 1 page or automatically scale (e.g. Kytheon Hero of Akros // Gideon Battle-Forged set: ORI nr: 23)
