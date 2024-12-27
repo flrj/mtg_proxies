@@ -3,6 +3,7 @@
 This is a tool to create proxies for Magic the Gathering.
 For now it only works for double faced cards.
 
+<img src=https://cards.scryfall.io/large/front/6/d/6d84e2d4-38bf-4d46-99a6-37c2dda66b16.jpg?1698988748 width=128>
 ![front card](https://cards.scryfall.io/large/front/6/d/6d84e2d4-38bf-4d46-99a6-37c2dda66b16.jpg?1698988748)
 ![back card](https://cards.scryfall.io/large/back/6/d/6d84e2d4-38bf-4d46-99a6-37c2dda66b16.jpg?1698988748)
 
