@@ -2,4 +2,4 @@
 *.log
 *.aux
 .venv/
-
+__pycache__/
