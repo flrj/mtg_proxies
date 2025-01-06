@@ -1,6 +1,7 @@
 latex_head = """\\documentclass[8pt]{extarticle}
 \\usepackage{geometry}
 \\usepackage{graphicx}
+\\usepackage[frame, a4, center]{crop}
 
 \\geometry{
 	paperwidth=63mm,
