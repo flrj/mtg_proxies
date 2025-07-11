@@ -22,14 +22,14 @@ def concat_card_face(card_json):
     latex_body = "{\\large\\textbf{" + card_json["name"] + "}}"
     if card_json["mana_cost"] != "":
         latex_body += "\n\\hfill\n"
-        latex_body += card_json["mana_cost"].replace("}", "").replace("{", "\\")
+        latex_body += card_json["mana_cost"].replace("}", "").replace("{", "\\").replace("/", "")
     latex_body += "\n"
     
     # type line
     latex_body += "\n" + "\\textbf{" + card_json["type_line"] + "}\n"
 
     # card text
-    latex_body += "\n" + card_json["oracle_text"].replace("}", "").replace("{", "\\") + "\n"
+    latex_body += "\n" + card_json["oracle_text"].replace("}", "").replace("{", "\\").replace("/", "") + "\n"
     
     # bottom line, e.g. power/toughness
     print(card_json.keys())
